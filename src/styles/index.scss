@@ -1,13 +1,60 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    // border: 1px dashed red;
+}
+body{
+    background-color:royalblue;
+}
+#barra{
+    background-color: black;
+    height: 120px;
+    width: 10px;
+    padding:0px;
+}
+#container{
+    background-color:black;
+    height: 250px;
+    width: 110px;
+    border-radius: 10px;
+}
+.col-4{
+    background: white;
+}
+button{
+    border: none;
+    border-radius: 25px;
+}
+.redlight {
+  background-color: red;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-top:20px;
+    padding-top: 0px;
+    transition: all 0.3s ease 0s;
+  }
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.yellowlight {
+    background-color:yellow;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
 
-*/
+.greenlight {
+    background-color:green;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.light{
+    transition: all 0.3s ease 0s;  
+    box-shadow: -3px 3px 40px white;
+    color: #fff;
+}
