@@ -1,60 +1,66 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    // border: 1px dashed red;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 1px dashed red;
 }
-body{
-    background-color:royalblue;
+body {
+  background-color: royalblue;
 }
-#barra{
-    background-color: black;
-    height: 120px;
-    width: 10px;
-    padding:0px;
+.container {
+  height: 100vh;
 }
-#container{
-    background-color:black;
-    height: 250px;
-    width: 110px;
-    border-radius: 10px;
+#barra {
+  background-color: black;
+  height: 120px;
+  width: 3%;
+  padding: 0px;
 }
-.col-4{
-    background: white;
+#container {
+  background-color: black;
+  height: 250px;
+  width: 110px;
+  border-radius: 20px;
 }
-button{
-    border: none;
-    border-radius: 25px;
+.col-md-4 {
+  background: white;
+  border-radius: 50%;
+  width: 450px;
+  height: 450px;
+}
+button {
+  border: none;
+  border-radius: 25px;
 }
 .redlight {
   background-color: red;
-    height: 60px;
-    width: 60px;
-    border-radius: 50%;
-    margin-bottom: 10px;
-    margin-top:20px;
-    padding-top: 0px;
-    transition: all 0.3s ease 0s;
-  }
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  padding-top: 0px;
+  transition: all 0.3s ease 0s;
+}
 
 .yellowlight {
-    background-color:yellow;
-    height: 60px;
-    width: 60px;
-    border-radius: 50%;
-    margin-bottom: 10px;
+  background-color: yellow;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin-bottom: 10px;
 }
 
 .greenlight {
-    background-color:green;
-    height: 60px;
-    width: 60px;
-    border-radius: 50%;
+  background-color: green;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
 }
-.light{
-    transition: all 0.3s ease 0s;  
-    box-shadow: 2px -2px 40px 5px rgba(255, 255, 255, 1);
-    color: #fff;
+.light {
+  transition: all 0.3s ease 0s;
+  box-shadow: 2px -2px 40px 5px rgba(255, 255, 255, 1);
+  color: #fff;
 }

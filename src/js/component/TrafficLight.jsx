@@ -6,14 +6,14 @@ const TrafficLight = () => {
 	const [green, setGreen] = useState(false);
 
 	return (
-		<div className="container">
+		<div className="container d-flex align-items-center justify-content-center">
 			<div className="row justify-content-center">
-				<div className="col-4 text-center pb-5">
+				<div className="col-md-4 d-flex flex-column align-items-center text-center">
 					<div
 						id="barra"
 						className="container abs-center justify-content-center"></div>
 
-					<div id="semaforo p-5 text-center">
+					<div id="trafficlight p-5 text-center">
 						<div
 							id="container"
 							className="container abs-center justify-content-center">
